@@ -1,0 +1,82 @@
+* {
+	padding: 0;
+	margin: 0;
+    overflow: auto;
+}
+
+body {
+	background: url(/public/images/asfalt-dark.png) #F1F1F1;
+	overflow: hidden;
+}
+header{
+    background: #191919;
+    width: 100%;
+    height: 49vw;
+    color: #C4C3C3;
+    font-family: "open sans";
+	font-style: normal;
+	font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+}
+#center{
+    position: absolute;
+    left: 20%;
+    top: 10%
+}
+#center img{
+    width: 45em;
+}
+#center h1{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    font-size: 3em;
+    
+}
+article p:first-child{
+    font-family: "open sans";
+	font-style: italic;
+	font-weight: 400;
+    font-size: .5em;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+}
+.verticalleft{
+    font-size: .5em;
+     float: left;
+      margin: 79px -433px 0 0;
+      width: 30%;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);	
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.verticalleft:nth-child(2){
+   margin: 459px -433px 0 0;
+}
+.verticalright{
+    font-size: .5em;
+     float: right;
+    margin: 89px -2px 50px -290px;
+      width: 20%;
+    -webkit-transform: rotate(90deg); 
+    -moz-transform: rotate(90deg);	
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.verticalright:nth-child(2){
+     margin: 499px -2px 50px -290px;
+}
+
+.afb1 img{
+    width: 62em;
+    position: absolute;
+    left: 18%;
+    top: 100%;
+}
+.afb2 img{
+    width: 62em;
+    position: absolute;
+    left: 1%;
+    top: 230%;
+}
