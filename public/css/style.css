@@ -34,6 +34,9 @@ header{
     font-size: 3em;
     
 }
+article{
+    overflow: hidden;
+}
 article p:first-child{
     font-family: "open sans";
 	font-style: italic;
@@ -68,7 +71,7 @@ article p:first-child{
      margin: 499px -2px 50px -290px;
 }
 
-.afb1 img{
+.afb1 {
     width: 62em;
     position: absolute;
     left: 18%;
