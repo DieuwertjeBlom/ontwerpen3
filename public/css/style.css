@@ -6,7 +6,6 @@
 
 body {
 	background: url(public/images/asfalt-dark.png) #F1F1F1;
-	overflow: hidden;
 }
 header{
     background: #191919;
@@ -32,6 +31,17 @@ video {
     background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
     background-size: cover;
     transition: 1s opacity;
+}
+h3{
+    font-family: "open sans";
+    font-style: bold;
+    font-weight: 400;
+    color: black;
+    font-size: 10vh;
+    text-align: center;
+    position: absolute;
+    top: 29em;
+    left: 1em;
 }
 .stopfade { 
    opacity: .5;
@@ -87,26 +97,49 @@ article p:first-child{
 .verticalright:nth-child(2){
      margin: 499px -2px 50px -290px;
 }
-
-.afb1 {
-    width: 60em;
-    height: 30em;
-    position: absolute;
-    left: 18%;
-    margin-top: 5em;
-    margin-bottom: 5em;
+.backgroundnoice{
+        display: none;
+}
+main{
     overflow: hidden;
-    background-color: red;
+}
+button{
+    position: absolute;
+    margin-top: -32em;
+}
+.afb1 {
+    position: absolute;
+    left: 8%;
+    margin-bottom: 5em;
+     overflow-x:hidden;
+    overflow-y:hidden;
+}
+.afb1animatie{
+    margin-top: -56em;
+}
+.mySoundClip{
+   background: red;
 }
 .afb2 {
-    width: 62em;
     position: absolute;
-    left: 1%;
     top: 190%;
-    width: 60em;
-    height: 30em;
-    position: absolute;
-    margin-bottom: 5em;
-    overflow: hidden;
-    background-color: green;
+    margin-left: -5em;
+     overflow-x:hidden;
+    overflow-y:hidden;
 }
+.afb2animatie{
+    margin-top: -38em;
+    margin-left: 13em;
+}
+.afb3{
+   margin-left: 18%;
+    margin-top: 90em;
+     overflow-x:hidden;
+    overflow-y:hidden;
+}
+.afb3animatie{
+    margin-top: -46em;
+    margin-left: 14em;
+    width: 41em;
+}
+
