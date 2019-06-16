@@ -3,7 +3,6 @@
 	margin: 0;
     overflow: auto;
 }
-
 body {
 	background: url(public/images/asfalt-dark.png) #F1F1F1;
     overflow-x: hidden;
@@ -42,6 +41,9 @@ h3{
     top: 48em;
     left: 2em;
 }
+p{
+ font-family: 'Roboto Condensed', sans-serif;
+}
 .stopfade { 
    opacity: .5;
 }
@@ -64,7 +66,6 @@ article{
     overflow: hidden;
 }
 article p:first-child{
-    font-family: "open sans";
 	font-style: italic;
 	font-weight: 400;
     font-size: .5em;
@@ -73,10 +74,11 @@ article p:first-child{
     top: 5%;
 }
 .verticalleft{
+    position: absolute;
     font-size: .5em;
-     float: left;
-      margin: 79px -433px 0 0;
-      width: 30%;
+    float: left;
+    margin: 79px -433px 0 0;
+    width: 27%;
     -webkit-transform: rotate(-90deg); 
     -moz-transform: rotate(-90deg);	
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
@@ -126,11 +128,28 @@ main{
 .alinia1:active{
     background: url(../images/bttn.png) no-repeat;;
 }
-}
 .alinia2 {
     position: absolute;
-    margin-left: 91em;
-    margin-top: 22em;
+    top: 57em;
+    left: 27em;
+    width: 359px;
+    height: 18%;
+    background: 0.5em -.5em url(../images/bttn1.png) no-repeat;
+    border: none;
+    color: white;
+    padding-block-end: 0em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+}
+.alinia2:hover{
+    background: 0.5em -.5em  url(../images/bttn1-hover.png) no-repeat;;
+}
+.alinia2:active{
+    background: url(../images/kwakje.png) no-repeat;;
 }
 .alinia3{
     position: absolute;
@@ -156,7 +175,8 @@ main{
     background: -.05em 1em  url(../images/bttn1-hover.png) no-repeat;;
 }
 .alinia3:active{
-    background: url(../images/bttn.png) no-repeat;;
+    background: url(../images/bannaan.png) no-repeat;
+    background-size: 9em;
 }
 .alinia4{
     position: absolute;
@@ -186,15 +206,15 @@ main{
 }
 .alinia5{
     position: absolute;
-    left: 11em;
-    top: 125em;
+    left: 12em;
+    top: 122em;
     cursor: pointer;
     width: 312px;
-    height: 28%;
-    background: 1em 1em url(../images/bttn1.png) no-repeat;
+    height: 25%;
+    background: -.05em 1em url(../images/bttn1.png) no-repeat;
     border: none;
     color: white;
-    padding: 0em;
+    padding-block-end: 2em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -202,25 +222,25 @@ main{
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
 }
-.alinia4:hover{
+.alinia5:hover{
     width: 312px;
     height: 25%;
     background: -.05em 1em  url(../images/bttn1-hover.png) no-repeat;;
 }
-.alinia4:active{
-    background: url(../images/bttn.png) no-repeat;;
+.alinia5:active{
+    background: url(../images/kwakje.png) no-repeat;;
 }
 .alinia6{
     position: absolute;
-    left: 11em;
-    top: 138em;
+    left: 25em;
+/*    top: 138em;*/
     cursor: pointer;
     width: 312px;
-    height: 28%;
-    background: 1em 1em url(../images/bttn1.png) no-repeat;
+    height: 25%;
+    background: -.05em 1em url(../images/bttn1.png) no-repeat;
     border: none;
     color: white;
-    padding: 0em;
+    padding-block-end: 1em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -228,20 +248,26 @@ main{
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
 }
+.alinia6:hover{
+    width: 312px;
+    height: 25%;
+    background: -.05em 1em url(../images/bttn1-hover.png) no-repeat;;
+}
 .alinia6:active{
-    background: url(../images/bttn.png) no-repeat;;
+    background: url(../images/bannaan.png) no-repeat;
+    background-size: 9em;
 }
 .alinia62{
     position: absolute;
+    left: 0em;
+    top: 11em;
     cursor: pointer;
-    top: 155em;
-    left: 16em;
     width: 312px;
-    height: 28%;
-    background: 1em 1em url(../images/bttn1.png) no-repeat;
+    height: 25%;
+    background: -.05em 1em url(../images/bttn1.png) no-repeat;
     border: none;
     color: white;
-    padding: 0em;
+    padding-block-end: 1em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -249,20 +275,25 @@ main{
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
 }
+.alinia62:hover{
+    width: 312px;
+    height: 25%;
+    background: -.05em 1em url(../images/bttn1-hover.png) no-repeat;;
+}
 .alinia62:active{
-    background: url(../images/bttn.png) no-repeat;;
+    background: url(../images/kwakje.png) no-repeat;
 }
 .alinia7{
     position: absolute;
     cursor: pointer;
     top: 178em;
     left: 7em;
-    width: 312px;
+    width: 299px;
     height: 28%;
-    background: 1em 1em url(../images/bttn1.png) no-repeat;
+    background: -.05em 1em url(../images/bttn1.png) no-repeat;
     border: none;
     color: white;
-    padding: 0em;
+    padding-block-end: 2em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -270,15 +301,21 @@ main{
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
 }
+.alinia7:hover{
+    width: 312px;
+    height: 28%;
+    background: -.05em 1em url(../images/bttn1-hover.png) no-repeat;;
+}
 .alinia7:active{
-    background: url(../images/bttn.png) no-repeat;;
+    background: url(../images/bannaan.png) no-repeat;
+    background-size: 9em;
 }
 .alinia8{
     position: absolute;
     cursor: pointer;
-    top: 196em;
+    top: 197em;
     left: 12em;
-    width: 312px;
+    width: 424px;
     height: 28%;
     background: 1em 1em url(../images/bttn1.png) no-repeat;
     border: none;
@@ -291,20 +328,23 @@ main{
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
 }
+.alinia8:hover{
+    width: 424px;
+    height: 28%;
+    background: 1em 1em url(../images/bttn1-hover.png) no-repeat;;
+}
 .alinia8:active{
-    background: url(../images/bttn.png) no-repeat;;
+    background: url(../images/kwakje.png) no-repeat;
 }
 .alinia9{
     position: absolute;
     cursor: pointer;
-/*    top: 196em;
-    left: 12em;*/
-    width: 312px;
+    width: 356px;
     height: 28%;
     background: 1em 1em url(../images/bttn1.png) no-repeat;
     border: none;
     color: white;
-    padding: 0em;
+    padding-block-end: 2em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -312,8 +352,14 @@ main{
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
 }
+.alinia9:hover{
+    width: 356px;
+    height: 28%;
+    background: 1em 1em url(../images/bttn1-hover.png) no-repeat;;
+}
 .alinia9:active{
-    background: url(../images/bttn.png) no-repeat;;
+     background: url(../images/bannaan.png) no-repeat;
+    background-size: 9em;
 }
 /*einde button stijling*/
 .afb1 {
@@ -376,11 +422,13 @@ main{
     width: 40em;
 }
 .afb6{
+    position: relative;
     overflow: hidden;
     margin-left: 6em;
     margin-top: -7em;
 }
 .afb6animatie{
+    position: relative;
     margin-top: -54em;
     margin-left: 2em;
     margin-bottom: 8em;
@@ -399,7 +447,7 @@ main{
 }
 .titel3{
     margin-top: 84em;
-    margin-left: 6em;
+    margin-left: 3em;
 }
 .afb8{
     overflow: hidden;
