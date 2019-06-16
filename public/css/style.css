@@ -9,7 +9,7 @@ body {
     overflow-x: hidden;
 }
 header{
-    background: #191919;
+    background: url(public/images/asfalt-dark.png) #191919;
     width: 100%;
     height: 49vw;
     color: #C4C3C3;
@@ -29,7 +29,7 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background: url('/demosthenes.info/assets/images/polina.jpg') no-repeat;
     background-size: cover;
     transition: 1s opacity;
 }
@@ -39,7 +39,7 @@ h3{
     font-size: 6vh;
     text-align: center;
     position: absolute;
-    top: 52em;
+    top: 48em;
     left: 2em;
 }
 .stopfade { 
@@ -58,8 +58,7 @@ h3{
     top: 60%;
     left: 5%;
     font-size: 3em;
-font-family: 'Permanent Marker', cursive;
-    
+font-family: 'Permanent Marker', cursive;  
 }
 article{
     overflow: hidden;
@@ -104,38 +103,217 @@ main{
     overflow: hidden;
 }
 /*button stijling*/
-.alinia1{
+.alinia1 {
     position: absolute;
-    top: 52em;
-    left: 32em;
+    top: 18em;
+    left: 9em;
+    width: 357px;
+    height: 18%;
+    background: 0.5em -.5em url(../images/bttn1.png) no-repeat;
+    border: none;
+    color: white;
+    padding-block-end: 3em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
 }
-.alinia2{
+.alinia1:hover{
+    background: 0.5em -.5em  url(../images/bttn1-hover.png) no-repeat;;
+}
+.alinia1:active{
+    background: url(../images/bttn.png) no-repeat;;
+}
+}
+.alinia2 {
     position: absolute;
-    margin:22em;
+    margin-left: 91em;
+    margin-top: 22em;
 }
 .alinia3{
     position: absolute;
-    top: 250em;
+    top: 76em;
+    left: 7em;
+    cursor: pointer;
+    width: 312px;
+    height: 25%;
+    background: -.05em 1em url(../images/bttn1.png) no-repeat;
+    border: none;
+    color: white;
+    padding: 0em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+}
+.alinia3:hover{
+    width: 312px;
+    height: 25%;
+    background: -.05em 1em  url(../images/bttn1-hover.png) no-repeat;;
+}
+.alinia3:active{
+    background: url(../images/bttn.png) no-repeat;;
 }
 .alinia4{
     position: absolute;
-    left: 92em;
+    left: 23em;
+    top: 92em;
+    cursor: pointer;
+     width: 312px;
+    height: 25%;
+    background: -.05em 1em url(../images/bttn1.png) no-repeat;
+    border: none;
+    color: white;
+    padding-block-end: 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+}
+.alinia4:hover{
+    width: 312px;
+    height: 25%;
+    background: -.05em 1em  url(../images/bttn1-hover.png) no-repeat;;
+}
+.alinia4:active{
+    background: url(../images/bttn.png) no-repeat;;
 }
 .alinia5{
     position: absolute;
+    left: 11em;
+    top: 125em;
+    cursor: pointer;
+    width: 312px;
+    height: 28%;
+    background: 1em 1em url(../images/bttn1.png) no-repeat;
+    border: none;
+    color: white;
+    padding: 0em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+}
+.alinia4:hover{
+    width: 312px;
+    height: 25%;
+    background: -.05em 1em  url(../images/bttn1-hover.png) no-repeat;;
+}
+.alinia4:active{
+    background: url(../images/bttn.png) no-repeat;;
 }
 .alinia6{
     position: absolute;
-    left: 30em;
+    left: 11em;
+    top: 138em;
+    cursor: pointer;
+    width: 312px;
+    height: 28%;
+    background: 1em 1em url(../images/bttn1.png) no-repeat;
+    border: none;
+    color: white;
+    padding: 0em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+}
+.alinia6:active{
+    background: url(../images/bttn.png) no-repeat;;
 }
 .alinia62{
     position: absolute;
+    cursor: pointer;
+    top: 155em;
+    left: 16em;
+    width: 312px;
+    height: 28%;
+    background: 1em 1em url(../images/bttn1.png) no-repeat;
+    border: none;
+    color: white;
+    padding: 0em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+}
+.alinia62:active{
+    background: url(../images/bttn.png) no-repeat;;
 }
 .alinia7{
     position: absolute;
+    cursor: pointer;
+    top: 178em;
+    left: 7em;
+    width: 312px;
+    height: 28%;
+    background: 1em 1em url(../images/bttn1.png) no-repeat;
+    border: none;
+    color: white;
+    padding: 0em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+}
+.alinia7:active{
+    background: url(../images/bttn.png) no-repeat;;
+}
+.alinia8{
+    position: absolute;
+    cursor: pointer;
+    top: 196em;
+    left: 12em;
+    width: 312px;
+    height: 28%;
+    background: 1em 1em url(../images/bttn1.png) no-repeat;
+    border: none;
+    color: white;
+    padding: 0em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+}
+.alinia8:active{
+    background: url(../images/bttn.png) no-repeat;;
 }
 .alinia9{
     position: absolute;
+    cursor: pointer;
+/*    top: 196em;
+    left: 12em;*/
+    width: 312px;
+    height: 28%;
+    background: 1em 1em url(../images/bttn1.png) no-repeat;
+    border: none;
+    color: white;
+    padding: 0em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+}
+.alinia9:active{
+    background: url(../images/bttn.png) no-repeat;;
 }
 /*einde button stijling*/
 .afb1 {
@@ -154,15 +332,17 @@ main{
    background: red;
 }
 .afb2 {
-    position: relative;
+   /* position: relative;
     top: 190%;
-    margin-left: -5em;
+    margin-left: -5em;*/
      overflow-x:hidden;
     overflow-y:hidden;
 }
 .afb2animatie{
-    margin-top: -38em;
-    margin-left: 13em;
+    width: 55em;
+    position: relative;
+    margin-top: -32em;
+    margin-left: 8em;
 }
 .afb3{
    margin-left: 18%;
@@ -181,7 +361,7 @@ main{
     margin-top: -11em;
 }
 .afb4animatie{
-    margin-top: -40em;
+    margin-top: -45em;
     margin-left: 14em;
     width: 41em;
 }
