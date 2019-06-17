@@ -1,10 +1,10 @@
 * {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
     overflow: auto;
 }
 body {
-	background: url(public/images/asfalt-dark.png) #F1F1F1;
+    background: url(public/images/asfalt-dark.png) #F1F1F1;
     overflow-x: hidden;
 }
 header{
@@ -13,8 +13,8 @@ header{
     height: 49vw;
     color: #C4C3C3;
     font-family: "open sans";
-	font-style: normal;
-	font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
     font-size: 1.5em;
     text-align: center;
 }
@@ -66,8 +66,8 @@ article{
     overflow: hidden;
 }
 article p:first-child{
-	font-style: italic;
-	font-weight: 400;
+    font-style: italic;
+    font-weight: 400;
     font-size: .5em;
     position: absolute;
     left: 50%;
@@ -80,7 +80,7 @@ article p:first-child{
     margin: 79px -433px 0 0;
     width: 27%;
     -webkit-transform: rotate(-90deg); 
-    -moz-transform: rotate(-90deg);	
+    -moz-transform: rotate(-90deg); 
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 .verticalleft:nth-child(2){
@@ -92,7 +92,7 @@ article p:first-child{
     margin: 89px -2px 50px -290px;
       width: 20%;
     -webkit-transform: rotate(90deg); 
-    -moz-transform: rotate(90deg);	
+    -moz-transform: rotate(90deg);  
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 .verticalright:nth-child(2){
@@ -121,6 +121,7 @@ main{
     font-size: 32px;
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
+    animation: float 2s ease-in-out infinite;  
 }
 .alinia1:hover{
     background: 0.5em -.5em  url(../images/bttn1-hover.png) no-repeat;;
@@ -132,18 +133,19 @@ main{
     position: absolute;
     top: 57em;
     left: 27em;
-    width: 359px;
+    width: 499px;
     height: 18%;
     background: 0.5em -.5em url(../images/bttn1.png) no-repeat;
     border: none;
     color: white;
-    padding-block-end: 0em;
+    padding-block-end: 3em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 32px;
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
+    animation: float 9s ease-in-out infinite;  
 }
 .alinia2:hover{
     background: 0.5em -.5em  url(../images/bttn1-hover.png) no-repeat;;
@@ -156,7 +158,7 @@ main{
     top: 76em;
     left: 7em;
     cursor: pointer;
-    width: 312px;
+    width: 395px;
     height: 25%;
     background: -.05em 1em url(../images/bttn1.png) no-repeat;
     border: none;
@@ -168,9 +170,10 @@ main{
     font-size: 32px;
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
+    animation: float 6s ease-in-out infinite;  
 }
 .alinia3:hover{
-    width: 312px;
+    width: 395px;
     height: 25%;
     background: -.05em 1em  url(../images/bttn1-hover.png) no-repeat;;
 }
@@ -195,6 +198,7 @@ main{
     font-size: 32px;
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
+    animation: float 4s ease-in-out infinite;  
 }
 .alinia4:hover{
     width: 312px;
@@ -221,6 +225,7 @@ main{
     font-size: 32px;
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
+    animation: float 7s ease-in-out infinite;  
 }
 .alinia5:hover{
     width: 312px;
@@ -235,18 +240,19 @@ main{
     left: 25em;
 /*    top: 138em;*/
     cursor: pointer;
-    width: 312px;
+    width: 452px;
     height: 25%;
     background: -.05em 1em url(../images/bttn1.png) no-repeat;
     border: none;
     color: white;
-    padding-block-end: 1em;
+    padding-block-end: 3em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 32px;
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
+    animation: float 2s ease-in-out infinite; 
 }
 .alinia6:hover{
     width: 312px;
@@ -262,22 +268,22 @@ main{
     left: 0em;
     top: 11em;
     cursor: pointer;
-    width: 312px;
+    width: 322px;
     height: 25%;
     background: -.05em 1em url(../images/bttn1.png) no-repeat;
     border: none;
     color: white;
-    padding-block-end: 1em;
+    padding-block-end: 11em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 32px;
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
+    animation: float 6s ease-in-out infinite;
 }
 .alinia62:hover{
-    width: 312px;
-    height: 25%;
+
     background: -.05em 1em url(../images/bttn1-hover.png) no-repeat;;
 }
 .alinia62:active{
@@ -300,9 +306,10 @@ main{
     font-size: 32px;
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
+    animation: float 8s ease-in-out infinite;  
 }
 .alinia7:hover{
-    width: 312px;
+    width: 299px;
     height: 28%;
     background: -.05em 1em url(../images/bttn1-hover.png) no-repeat;;
 }
@@ -315,31 +322,7 @@ main{
     cursor: pointer;
     top: 197em;
     left: 12em;
-    width: 424px;
-    height: 28%;
-    background: 1em 1em url(../images/bttn1.png) no-repeat;
-    border: none;
-    color: white;
-    padding: 0em;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 32px;
-    font-family: 'Indie Flower', cursive;
-    cursor: pointer;
-}
-.alinia8:hover{
-    width: 424px;
-    height: 28%;
-    background: 1em 1em url(../images/bttn1-hover.png) no-repeat;;
-}
-.alinia8:active{
-    background: url(../images/kwakje.png) no-repeat;
-}
-.alinia9{
-    position: absolute;
-    cursor: pointer;
-    width: 356px;
+    width: 373px;
     height: 28%;
     background: 1em 1em url(../images/bttn1.png) no-repeat;
     border: none;
@@ -351,9 +334,35 @@ main{
     font-size: 32px;
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
+    animation: float 5s ease-in-out infinite; 
+}
+.alinia8:hover{
+    width: 373px;
+    height: 28%;
+    background: 1em 1em url(../images/bttn1-hover.png) no-repeat;;
+}
+.alinia8:active{
+    background: url(../images/kwakje.png) no-repeat;
+}
+.alinia9{
+    position: absolute;
+    cursor: pointer;
+    width: 400px;
+    height: 28%;
+    background: 1em 1em url(../images/bttn1.png) no-repeat;
+    border: none;
+    color: white;
+    padding-block-end: 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+    animation: float 3s ease-in-out infinite;
 }
 .alinia9:hover{
-    width: 356px;
+    width: 400px;
     height: 28%;
     background: 1em 1em url(../images/bttn1-hover.png) no-repeat;;
 }
@@ -481,5 +490,106 @@ footer{
    color: white;
    text-align: center;
    padding: .5em;
-} 
 }
+/*
+======================================
+
+Animatie
+
+======================================
+*/
+#gesprek{
+   animation: float 6s ease-in-out infinite;
+}
+#Datum{
+   animation: float 3s ease-in-out infinite;
+}
+#wijzen{
+    animation: float 4s ease-in-out infinite;
+}
+#meetlat{
+    animation: float 8s ease-in-out infinite;
+}
+#bureau{
+    animation: float 3s ease-in-out infinite;
+}
+#bh{
+    animation: float 5s ease-in-out infinite;
+}
+#hand{
+    animation: float 2s ease-in-out infinite;
+}
+#billen{
+    animation: float 8s ease-in-out infinite;
+}
+#borsten{
+    animation: float 1s ease-in-out infinite;
+    
+}
+#knuppel{
+    animation: float 8s ease-in-out infinite;
+}
+#sluitels{
+    animation: float 3s ease-in-out infinite;
+}
+#kruis{
+    animation: float 1s ease-in-out infinite;
+}
+#taart{
+    animation: float 5s ease-in-out infinite;
+}
+#schrijven{
+    animation: float 6s ease-in-out infinite;
+}
+#fiets{
+    animation: float 10s ease-in-out infinite;
+}
+#haha{
+    animation: float 1s ease-in-out infinite;
+}
+#sst{
+     animation: float 3s ease-in-out infinite;   
+}
+#rugzak{
+    animation: float 5s ease-in-out infinite;
+}
+#hart{
+    animation: float 1s ease-in-out infinite;
+}
+#mes{
+    animation: float 8s ease-in-out infinite;
+}
+#hand{
+    animation: float 6s ease-in-out infinite;
+}
+#telefoon{
+    animation: float 1s ease-in-out infinite;
+}
+#volgen{
+     animation: float 5s ease-in-out infinite;
+}
+#trein{
+     animation: float 8s ease-in-out infinite;
+}
+#gokken{
+    animation: float 6s ease-in-out infinite;
+}
+#bank{
+    animation: float 1s ease-in-out infinite;
+}
+@keyframes float {
+    0% {
+        transform: translatey(0px) ;
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+
+
+
+
